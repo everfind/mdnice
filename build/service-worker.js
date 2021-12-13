@@ -11,11 +11,11 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
+importScripts("/mdnice/workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/mdnice/workbox-v3.6.3"});
 
 importScripts(
-  "/precache-manifest.73f7ad9d85843ea9ce3f4fdb568ed98e.js"
+  "/mdnice/precache-manifest.20c589f41a9e1e6d890f750a7455d84a.js"
 );
 
 workbox.skipWaiting();
@@ -30,7 +30,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/index.html", {
+workbox.routing.registerNavigationRoute("/mdnice/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

@@ -1,0 +1,15 @@
+{
+  "name": "mdnice",
+  "version": "1.0.0",
+  "description": "markdown 格式化工具",
+  "main": "index.js",
+  "repository": "git@github.com:everfind/mdnice.git",
+  "author": "bingoootang <bingooo_tang@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  }
+}
